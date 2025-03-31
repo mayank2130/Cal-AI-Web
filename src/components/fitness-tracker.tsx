@@ -45,7 +45,7 @@ export function FitnessTracker() {
     sleep: sleep.goal,
     water: water.goal,
   });
-  const [gridView, setGridView] = useState(false);
+  const [gridView, setGridView] = useState(true);
 
   // Days array (Today at index 0, then previous days)
   const days = [

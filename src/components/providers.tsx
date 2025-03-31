@@ -39,7 +39,7 @@ export function Providers({ children }: { children: ReactNode }) {
   }, [activeTab])
 
   return (
-    <ThemeProvider defaultTheme="light" storageKey="fitness-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="fitness-theme">
       <TabContext.Provider value={{ activeTab, setActiveTab }}>
         {children}
       </TabContext.Provider>
